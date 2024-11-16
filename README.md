@@ -21,7 +21,7 @@ Este proyecto es una aplicación web desarrollada con **React**, **TypeScript** 
 ---
 
 ## Estructura del proyecto
-
+```markdown
 proyectoReact-TS/
 ├── public/
 ├── src/
@@ -34,11 +34,14 @@ proyectoReact-TS/
 │   ├── hooks/                 # Hooks personalizados
 │   │   └── useForm.ts         # Hook para formularios
 │   ├── App.tsx                # Componente principal
+```
 
 ## Descripcion de Componentes
 
 **FormComponent**: Componente que incluye un formulario para agregar productos.
+
 **AppProduct**: Muestra una lista de productos en tarjetas.
+
 **useForm**: Hook personalizado para manejar la lógica del formulario.
 
 ## Instalación y Ejecucion del Proyecto
@@ -60,7 +63,9 @@ El proyecto estará disponible en http://localhost:5173.
 ## Ejemplo de Uso
 
 Completa el formulario con los detalles de un producto (nombre, URL de la imagen y precio).
+
 Haz clic en "Enviar Producto" para agregarlo al menú.
+
 El producto se mostrará como una tarjeta debajo del formulario.
 
 
